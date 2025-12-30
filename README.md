@@ -25,8 +25,10 @@ Run these commands in your terminal to set up and start the project:
 # 1. Clone the repo
 git clone [https://github.com/codewithmittalhardik/spam.git](https://github.com/codewithmittalhardik/spam.git)
 cd spam
+```
 
 # 2. Create & Activate Virtual Environment
+```bash
 # Windows:
 python -m venv venv
 venv\Scripts\activate
@@ -34,11 +36,15 @@ venv\Scripts\activate
 # macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
+```
 
 # 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 4. Run the App
+```bash
 streamlit run app.py
 ```
 
