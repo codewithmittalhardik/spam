@@ -19,6 +19,15 @@ A machine learning-based web application that classifies SMS or Email messages a
 - **NLP**: NLTK (Natural Language Toolkit)
 - **Data Handling**: Pandas, NumPy
 
+## 📂 Project Structure
+spam/
+├── app.py              # Main Streamlit application file
+├── model.pkl           # Pre-trained machine learning model
+├── vectorizer.pkl      # Pre-trained TF-IDF/CountVectorizer
+├── requirements.txt    # List of python dependencies
+└── README.md           # Project documentation
+
+
 Run these commands in your terminal to set up and start the project:
 
 ```bash
@@ -40,11 +49,3 @@ pip install -r requirements.txt
 
 # 4. Run the App
 streamlit run app.py
-
-## 📂 Project Structure
-spam/
-├── app.py              # Main Streamlit application file
-├── model.pkl           # Pre-trained machine learning model
-├── vectorizer.pkl      # Pre-trained TF-IDF/CountVectorizer
-├── requirements.txt    # List of python dependencies
-└── README.md           # Project documentation
