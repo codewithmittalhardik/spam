@@ -23,7 +23,7 @@ Run these commands in your terminal to set up and start the project:
 
 # 1. Clone the repo
 ```bash
-git clone [https://github.com/codewithmittalhardik/spam.git](https://github.com/codewithmittalhardik/spam.git)
+git clone [https://github.com/codewithmittalhardik/spamdetector.git](https://github.com/codewithmittalhardik/spamdetector.git)
 cd spam
 ```
 
