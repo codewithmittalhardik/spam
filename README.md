@@ -42,7 +42,6 @@ pip install -r requirements.txt
 streamlit run app.py
 
 ## 📂 Project Structure
-```bash
 spam/
 ├── app.py              # Main Streamlit application file
 ├── model.pkl           # Pre-trained machine learning model
